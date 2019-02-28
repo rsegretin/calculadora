@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+</head>
+<body>
+
+	<div class="contenedor">
+
+		<input type="numeric" id="visor">
+
+		<div class="contenedor-numeros">
+
+			<button class="numero" id="num1" onclick="clickNumero(this);">1</button>
+			<button class="numero" id="num2" onclick="clickNumero(this);">2</button>
+			<button class="numero" id="num3" onclick="clickNumero(this);">3</button>
+			<button class="numero" id="num4" onclick="clickNumero(this);">4</button>
+			<button class="numero" id="num5" onclick="clickNumero(this);">5</button>
+			<button class="numero" id="num6" onclick="clickNumero(this);">6</button>
+			<button class="numero" id="num7" onclick="clickNumero(this);">7</button>
+			<button class="numero" id="num8" onclick="clickNumero(this);">8</button>
+			<button class="numero" id="num9" onclick="clickNumero(this);">9</button>
+			<button class="numero" id="num0" onclick="clickNumero(this);">0</button>
+
+		</div>
+
+		<div class="contendor-operadores">
+
+			<button class="operador" id="sumar" onclick="clickOperador(this);">+</button>
+			<button class="operador" id="restar" onclick="clickOperador(this);">-</button>
+			<button class="operador" id="multiplicar" onclick="clickOperador(this);">*</button>
+			<button class="operador" id="dividir" onclick="clickOperador(this);">/</button>
+
+		</div>
+
+		<button class="total" id="igual" onclick="clickCalcular();">=</button>
+
+	</div>
+
+	<script src="js/script.js"></script>
+	
+</body>
+</html>

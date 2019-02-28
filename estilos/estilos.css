@@ -1,0 +1,40 @@
+.contenedor {
+	width: 18%;
+}
+
+#visor {
+	width: 100%;
+	font-family: System;
+	font-size: 40px;
+}
+
+.contenedor-numeros {
+	width: 75%;
+}
+
+.numero {
+	box-sizing: content-box;
+	font-family: System;
+	font-size: 50px;
+	width: 23%;
+	padding: 4px;
+	margin: 2px;
+}
+
+.numero#num0 {
+	width: 75%
+}
+
+.contenedor-operadores {
+	width: 20px;
+}
+
+.operador {
+	width: 20%;
+	font-size: 50px;
+}
+
+.total {
+	width: 100%;
+	font-size: 50px;
+}
